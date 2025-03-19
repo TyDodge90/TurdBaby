@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #e0e1dd;
+}
+
+header {
+  padding: 2rem;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-gold {
+  background-color: gold;
+  color: #000;
+}
+
+.btn-green {
+  background-color: #4caf50;
+}
+
+.btn-lavender {
+  background-color: #b57edc;
+}
+
+.blog-preview {
+  background: #1b263b;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 80%;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #1b263b;
+}
+
+/* Lunari AI Page Styles */
+body.lunari {
+  background: url('space-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.explanation, .form-section, .signup {
+  background-color: rgba(0, 0, 0, 0.75);
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 80%;
+}
+
+input, button {
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  max-width: 400px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+}
